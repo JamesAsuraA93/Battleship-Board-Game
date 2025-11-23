@@ -45,6 +45,8 @@ export default function BattleshipGrid() {
     setBlueHits(emptyGrid)
   }, [gridSize])
 
+  
+
   const [redHidden, setRedHidden] = useState(false)
   const [blueHidden, setBlueHidden] = useState(false)
 
